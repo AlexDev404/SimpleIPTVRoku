@@ -114,7 +114,7 @@ sub onKeyPress()
     else if m.top.dialog.buttonSelected = 1 ' Set back to Demo
         ' Redirect to the Demo URL
         m.top.dialog.close = true
-        m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/playlist.m3u?ift=b15"
+        m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/playlist.m3u"
         m.save_feed_url.control = "RUN"
         m.get_channel_list.control = "RUN"
     else if m.top.dialog.buttonSelected = 2 ' Save
