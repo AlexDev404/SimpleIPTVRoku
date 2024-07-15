@@ -98,7 +98,7 @@ end sub
 
 
 sub showdialog()
-    m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/playlist.m3u?ift=b15"
+    m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/playlist.m3u"
     m.save_feed_url.control = "RUN"
     m.get_channel_list.control = "RUN"
 end sub
