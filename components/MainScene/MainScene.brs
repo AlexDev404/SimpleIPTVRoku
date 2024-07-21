@@ -98,7 +98,7 @@ end sub
 
 
 sub showdialog()
-    m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/TV_PG.m3u"
+    m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/TV_B.m3u"
     m.save_feed_url.control = "RUN"
     m.get_channel_list.control = "RUN"
 end sub
@@ -114,7 +114,7 @@ sub onKeyPress()
     else if m.top.dialog.buttonSelected = 1 ' Set back to Demo
         ' Redirect to the Demo URL
         m.top.dialog.close = true
-        m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/TV_PG.m3u"
+        m.global.feedurl = "https://raw.githubusercontent.com/Juaito/Channels/main/TV_B.m3u"
         m.save_feed_url.control = "RUN"
         m.get_channel_list.control = "RUN"
     else if m.top.dialog.buttonSelected = 2 ' Save
